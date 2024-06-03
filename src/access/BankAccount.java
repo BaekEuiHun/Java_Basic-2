@@ -32,6 +32,6 @@ public class BankAccount {
         //금액이 0보다 커야함
         return amount > 0;
     }
-  }
+}
 
 
