@@ -14,21 +14,23 @@ public class ProductOrderMain2 {
         System.out.println("총 결제금액 : " + totalAmount);
 
     }
-        int totalAmount = 0;
 
-        static ProductOrder createOrder(String productName, int price, int quantity) {
-            ProductOrder order = new ProductOrder();
-            order.productName = productName;
-            order.quantity = quantity;
-            order.price = price;
-            return order;
-        }
+    int totalAmount = 0;
+
+    static ProductOrder createOrder(String productName, int price, int quantity) {
+        ProductOrder order = new ProductOrder();
+        order.productName = productName;
+        order.quantity = quantity;
+        order.price = price;
+        return order;
+    }
 
     static void printOrders(ProductOrder[] orders) {
-        for(int i = 0; i < orders.length; i++) {
+        for (int i = 0; i < orders.length; i++) {
             System.out.println("상품명 : " + orders[i].productName + "가격 : " + orders[i].price + "개수 : " + orders[i].quantity);
         }
     }
+
     static int getTotalPrice(ProductOrder[] orders) {
         int totalAmount = 0;
         for (ProductOrder order : orders) {

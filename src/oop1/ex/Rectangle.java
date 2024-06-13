@@ -4,13 +4,15 @@ public class Rectangle {
     int width;
     int height;
 
-     int calculateArea(){
+    int calculateArea() {
         return width * height;
     }
-     int calculatePerimeter(){
+
+    int calculatePerimeter() {
         return 2 * (width + height);
     }
-     boolean insSquare(){
-        return width == height;
+
+    boolean isSquare() {
+        return this.width == this.height;
     }
 }
