@@ -1,6 +1,6 @@
 package music;
 
-public class music1 {
+public class music1{
     int volume;
     boolean isOn;
 }
