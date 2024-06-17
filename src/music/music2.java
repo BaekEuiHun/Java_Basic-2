@@ -5,7 +5,7 @@ public class music2 {
         music1 music = new music1();
 
 
-        music.isOn = true;
+        music.isOn =true;
 
         System.out.println("음악이 켜졌습니다. ");
 
