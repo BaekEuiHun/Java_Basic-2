@@ -5,6 +5,6 @@ public class BankAccountMain {
         BankAccount account = new BankAccount();
         account.deposit(10000);
         account.withdraw(5000);
-        System.out.println("balance : " + account.getBalance());
+        System.out.println("balance : " + account.getBalance()) ;
     }
 }
