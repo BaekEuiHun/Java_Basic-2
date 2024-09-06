@@ -8,6 +8,7 @@ public class JavaMemoryMain1 {
         System.out.println("main end");
     }
 
+    
     static void method1(int m1) {
         System.out.println("method1 start");
         int cal = m1 * 2;
