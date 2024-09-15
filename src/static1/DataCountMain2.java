@@ -10,7 +10,5 @@ public class DataCountMain2 {
         System.out.println("B count=" + counter.count);
 
     }
-
-
 }
 
