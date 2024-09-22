@@ -9,11 +9,9 @@ public class music2 {
 
         System.out.println("음악이 켜졌습니다. ");
 
-
         up(music);
         up(music);
         down(music);
-
 
         if (music.isOn) {
             System.out.println("현재 볼륨은 " + music.volume + "입니다");
