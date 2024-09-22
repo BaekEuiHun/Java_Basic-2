@@ -16,7 +16,7 @@ public class music2 {
         if (music.isOn) {
             System.out.println("현재 볼륨은 " + music.volume + "입니다");
         } else {
-            System.out.println("음악을 종료합니다");
+            System.out.println("음악을 종료합니다!!");
         }
         music.isOn = false;
         System.out.println("음악을 종료합니다");
