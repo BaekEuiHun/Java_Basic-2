@@ -19,6 +19,5 @@ public class MovieReviewMain2 {
          System.out.println("영화제목 : " + reviews[i].title + "영화리뷰 : " + reviews[i].review);
      }
 
-
     }
 }
